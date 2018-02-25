@@ -8,6 +8,6 @@ This repository contains all the programs I write for DSA studying purposes
 4. Merge Sort
 
 ## Problems to be solved
-1. The Next Palindrome - http://www.spoj.com/problems/PALIN/
+1. The Next Palindrome - http://www.spoj.com/problems/PALIN/<br>
 Some test cases: 71416, 121, 1111, 1234, 567864
 Expected output: 71417, 131, 1221, 1331, 568865
