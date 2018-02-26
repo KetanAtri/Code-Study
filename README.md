@@ -7,6 +7,7 @@ This repository contains all the programs I write for DSA studying purposes
 3. Insertion Sort
 4. Merge Sort
 5. Heap Sort
+6. Quick Sort
 
 ## Problems to be solved
 1. The Next Palindrome - http://www.spoj.com/problems/PALIN/<br>
