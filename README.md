@@ -8,6 +8,7 @@ This repository contains all the programs I write for DSA studying purposes
 4. Merge Sort
 5. Heap Sort
 6. Quick Sort
+7. Counting sort
 
 ## Problems to be solved
 1. The Next Palindrome - http://www.spoj.com/problems/PALIN/<br>
