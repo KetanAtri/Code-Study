@@ -10,6 +10,7 @@ This repository contains all the programs I write for DSA studying purposes
 6. Quick Sort - Choose a pivot element, order the element around it. Repeat the procedure on either sides of the pivot element to sort the entire array
 7. Counting sort - Keep the count of different elements, display the elements in sorted order based on counts
 8. Radix sort - Sorting is done based on digit, starting with the LSD or Least significant digit. Individual sorting is done using counting sort, repeated till all the digits are exhausted.
+9. Bucket sort - This works only for array which contain number from a uniform distribution. In this n buckets are created, numbers from the distribution are put into respective buckets (which can be sorted using any trivial sorting algorithm) finally the buckets are concatenated to obtain the sorted list. (No implementation done due to simplicity).
 
 ## Problems to be solved
 1. The Next Palindrome - http://www.spoj.com/problems/PALIN/<br>
