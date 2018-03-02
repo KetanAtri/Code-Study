@@ -1,3 +1,7 @@
+/*
+* Divide and conquer strategy is used, divide the array into two equal halves till single *
+* element is reached. Merge these divisions while keeping ordering under consideration.   *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

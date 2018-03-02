@@ -1,3 +1,8 @@
+/*
+* Compare adjacent elements, if the former is greater than the latter, swap the two; *
+* this operation is repeated n-1 times to sort the entire array                      *
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -17,12 +22,20 @@ int main()
     f(q, 0, n)
         cin>>arr[q];
 
-    //bubble sort
     int iter = n-1, n_copy = n;
+    //repeat action for n-1 iterations
     while(iter--){
+        //two consecutive counters
         for(int q=0, w=1; q<n-1 && w<n; q++, w++)
+            //swap when necessary
             if(arr[q]>arr[w])
                 swap(arr[q], arr[w]);
+        /*
+        * n defines the end point of the previous loop  *
+        * since each iteration puts the largest element *
+        * in its correct position we decrease the limit *
+        * after every iteration                         *
+        */
         n--;
     }
 

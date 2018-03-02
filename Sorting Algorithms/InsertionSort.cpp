@@ -1,3 +1,7 @@
+/*
+* Start from second element, keep swapping it back till a smaller element is reached. *
+* The process is repeated for the remaining elements as well to sort the entire array *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -22,11 +26,15 @@ int main()
 
     //insertion sort
     f(q, 1, n){
+        //key stores the element whose position is currently being changed
         int key = arr[q], index = q-1;
+        //push the previous element ahead if it is smaller than key
         while(arr[index]>key && index>-1){
             arr[index+1] = arr[index];
             index--;
         }
+        //index stores the element which was smaller than key (-1 if no element is smaller)
+        //since item at index+1 is also present at index+2, this does not lead to loss of element
         arr[index+1] = key;
     }
 

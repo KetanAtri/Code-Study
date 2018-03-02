@@ -1,3 +1,8 @@
+/*
+* Sorting is done based on digit, starting with the LSD or Least significant digit.           *
+* Individual sorting is done using counting sort, repeated till all the digits are exhausted. *
+* NOTE - Implementation using lesser space are possible                                       *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,7 +14,7 @@ typedef long long ll;
 typedef unsigned long long ull;
 typedef vector<int> vi;
 
-ifstream in("input");
+//ifstream in("input");
 //ofstream out("output");
 
 int main()
@@ -32,17 +37,24 @@ int main()
     //processing
     map<int, vi> indices;
     int div = 10;
+    //max_ keeps track of digits sorted thus far
     while(max_>0){
         max_/=10;
+        //indices is for counting sort, cleared after each digit
         indices.clear();
+        //arr_copy is the array from which the digits are picked
         f(q, 0, n)
             pb(indices[arr_copy[q]%10], q);
         int index = 0;
+        //order the elements based on counting sort results
         for(map<int, vi>::iterator iter=indices.begin(); iter!=indices.end(); iter++)
             f(q, 0, iter->second.size())
+                //arr is the array which stores the ordered elements
+                //arr_copy2 is used so that elements are preserved while reordering
                 arr[index++] = arr_copy2[iter->second[q]];
         f(q, 0, n){
             arr_copy2[q] = arr[q];
+            //arr_copy stores the elements with digits removed, after each iteration
             arr_copy[q] = arr[q]/div;
         }
         div*=10;

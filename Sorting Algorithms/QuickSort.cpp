@@ -1,3 +1,7 @@
+/*
+* Choose a pivot element, order the element around it. Repeat the procedure *
+* on either sides of the pivot element to sort the entire array             *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -15,6 +19,8 @@ int pivot_(int* arr, int low, int high)
 {
     //first element is chosen as pivot
     int ele = arr[low], last_index = high-1, q = low+1;
+    //q is the element which is one ahead of pivot
+    //last_index is the last element (not swapped)
     while(q<=last_index){
         //if current element is smaller, bring pivot to the front
         if(arr[q]<=ele){

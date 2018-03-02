@@ -1,3 +1,6 @@
+/*
+* Keep the count of different elements, display the elements in sorted order based on counts *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

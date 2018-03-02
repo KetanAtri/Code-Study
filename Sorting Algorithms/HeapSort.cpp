@@ -1,3 +1,7 @@
+/*
+* Use the heap structure (priority queue in C++) to store the elements *
+* then remove and insert them one by one to get the sorted list.       *
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -18,6 +22,7 @@ int main()
     while(t--){
     }*/
     //reading input and storing its negative in data type priority_queue, which is an implementation of the max heap
+    //by storing the negative input we use the max heap as a min heap, since our requirement is sorting in ascending order
     int n;
     cin>>n;
     priority_queue<int> arr;
