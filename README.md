@@ -16,7 +16,7 @@ The problems have been categorized based on the site I find them on. The link to
 
 ## Problem Tally
 1. HackerRank - 3 problems
-2. SPOJ - 1 problem
+2. SPOJ - 2 problems
 
 ### Message
 Please don't make any changes to the master branch, create your own branch and make the changes. I will pull the branches occasionally (if needed). The command for doing so (creating your own branch) using git CLT (command line tool) is:<br>

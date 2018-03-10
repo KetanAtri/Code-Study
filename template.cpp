@@ -9,7 +9,9 @@ using namespace std;
 
 typedef long long ll;
 typedef unsigned long long ull;
+typedef vector<int> vi;
 typedef pair<int, int> pii;
+typedef map<int, int> mii;
 
 //ifstream in("input");
 //ofstream out("output");
