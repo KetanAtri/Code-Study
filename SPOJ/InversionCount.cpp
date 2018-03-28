@@ -1,3 +1,4 @@
+//question link http://www.spoj.com/problems/INVCNT/
 #include <bits/stdc++.h>
 using namespace std;
 
