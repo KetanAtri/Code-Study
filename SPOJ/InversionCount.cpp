@@ -39,6 +39,9 @@ void merger(int* arr, int a, int b, int c, int d)
         if(left[left_index] <= right[right_index])
             arr[index++] = left[left_index++];
         else{
+            //this modification on merge sort algorithm counts the inversions
+            //if an element is picked from right half, the remaining left half elements are
+            //added to the number of inversions
             counter+=(left_size-left_index);
             arr[index++] = right[right_index++];
         }
