@@ -16,6 +16,7 @@ The problems have been categorized based on the site I find them on. The link to
 
 ## Graph Algorithms
 1. BFS - Breadth First Search
+2. DFS - Depth First Search
 
 ## Data Structures
 1. UFDS - Union Find Disjoint Sets
