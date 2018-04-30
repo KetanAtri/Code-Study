@@ -14,9 +14,13 @@ The problems have been categorized based on the site I find them on. The link to
 7. Counting sort
 8. Radix sort
 
+## Graph Algorithms
+1. BFS - Breadth First Search
+
 ## Data Structures
 1. UFDS - Union Find Disjoint Sets
 2. AVL Tree - Self-Balancing BST, Insertion only
 3. Fenwick Tree
 4. Segment Tree
 5. Heap
+
