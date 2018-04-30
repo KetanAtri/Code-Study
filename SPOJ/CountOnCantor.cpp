@@ -1,4 +1,4 @@
-//question link http://www.spoj.com/problems/CANTON/
+// question link - http://www.spoj.com/problems/CANTON/
 /*
 * Following are the first 25 terms in the enumeration:      *
 * 1/1 1/2 2/1 3/1 2/2                                       *
